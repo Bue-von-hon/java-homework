@@ -1,0 +1,13 @@
+package homeWork;
+
+public class Homework {
+	public static class Math
+	{
+		
+	}
+	
+	public static void main(String[] args)
+	{
+		
+	}
+}

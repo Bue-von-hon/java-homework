@@ -1,0 +1,10 @@
+package homeWork;
+
+public class Buyer extends Person
+{
+	private int money;
+	public Buyer(String personName)
+	{
+		
+	}
+}

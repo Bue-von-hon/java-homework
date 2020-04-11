@@ -1,0 +1,27 @@
+package homeWork;
+
+public class Seller {
+	private String sellerName;
+	private Book[] sellerBooks;
+	
+	Seller(String sellerName, Book[] sellerBooks)
+	{
+		this.sellerName = sellerName;
+		this.sellerBooks = sellerBooks;
+	}
+	
+	public void Say()
+	{
+		
+	}
+	
+	public String GetSellerName()
+	{
+		return sellerName;
+	}
+	
+	public Book[] GetSellerBooks()
+	{
+		return sellerBooks;
+	}
+}

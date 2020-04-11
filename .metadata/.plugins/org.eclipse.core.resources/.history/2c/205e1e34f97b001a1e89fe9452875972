@@ -1,0 +1,10 @@
+package homeWork;
+
+public abstract class Person {
+	public String personName;
+	
+	public Person(String personName)
+	{
+		
+	}
+}

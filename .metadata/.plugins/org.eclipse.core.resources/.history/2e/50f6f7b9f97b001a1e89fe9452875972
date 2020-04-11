@@ -1,0 +1,22 @@
+package homeWork;
+
+public abstract class Person {
+	private String personName;
+	private int personMoney;
+	
+	public Person(String personName, int personMoney)
+	{
+		this.personName = personName;
+		this.personMoney = personMoney;
+	}
+	
+	public String GetPersonName()
+	{
+		return personName;
+	}
+	
+	public int GetPersonMoney()
+	{
+		
+	}
+}

@@ -1,0 +1,11 @@
+package homeWork;
+
+public class Seller {
+	private String sellerName;
+	private Book[] sellerBooks
+	
+	Seller(String name)
+	{
+		
+	}
+}

@@ -1,0 +1,16 @@
+package homeWork;
+
+public class Homework {
+	
+	public static void main(String args[])
+	{
+		Book javaBook = new Book("자바", 20000);
+		Book jspBook = new Book("JSP", 21000);
+		Book pythonBook = new Book("파이썬", 18000);
+		Book cPlusPlusBook = new Book("C++", 22000);
+		Book DBBook = new Book("DB", 17000);
+		
+		Book[] computerScienceBooks = new Book[] { javaBook, jspBook, pythonBook, cPlusPlus}
+		
+	}
+}

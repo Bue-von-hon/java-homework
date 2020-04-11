@@ -1,0 +1,78 @@
+import java.util.Scanner;
+
+public class HomeWorkTwo {
+	
+	public static void BuyStuff(Stuff[] stuffs, String stuffName, int number)
+	{
+		for(int i = 0; i < stuffs.length; i++)
+		{
+			if(stuffs[i].GetIName().equals(stuffName))
+			{
+				if(stuffs[i].GetQun() < number)
+				{
+					System.out.printf("[-] %s는 %d개만 구입이 가능합니다.", stuffName, number);
+					stuffs[i].SetQun(number);
+				}
+				else
+				{
+					System.out.printf("[+] %s를 %d개 성공적으로 구입했습니다.", stuffName, number);
+					
+				}
+			}
+		}
+		System.out.println("[-] 해당하는 물건이 존재하지 않습니다.");
+		return;
+	}
+	
+	public static void PrintHeader(Stuff[] stuffs)
+	{
+		System.out.printf("%19s \n", "*** 물품 리스트 ***");
+		
+		
+		
+		for(int i=0;i < stuffs.length;i++)
+		{
+			if(i == 0)
+			{
+				System.out.printf("%s", stuffs[i].GetIName());
+			}
+			else
+			{
+				System.out.printf("%5s", stuffs[i].GetIName());
+			}
+		}
+		
+		System.out.println();
+		
+		System.out.printf("%d", stuffs[0].GetQun());
+		System.out.printf("%6d", stuffs[1].GetQun());
+		System.out.printf("%3d", stuffs[2].GetQun());
+		System.out.printf("%5d", stuffs[3].GetQun());
+		System.out.printf("%3d", stuffs[4].GetQun());
+		System.out.printf("%5d", stuffs[5].GetQun());
+		
+		System.out.println();
+	}
+	
+	public static void main(String[] args)
+	{
+		Stuff stuff1 = new Stuff("만연필", 5);
+		Stuff stuff2 = new Stuff("연필", 10);
+		Stuff stuff3 = new Stuff("볼펜", 3);
+		Stuff stuff4 = new Stuff("노트", 10);
+		Stuff stuff5 = new Stuff("샤프", 5);
+		Stuff stuff6 = new Stuff("사인펜", 20);
+		
+		Stuff[] stuffs = new Stuff[] {stuff1, stuff2, stuff3, stuff4, stuff5, stuff6};
+		
+		PrintHeader(stuffs);
+		
+		Scanner scan = new Scanner(System.in);
+		
+		System.out.printf("물품과 수량 입력 >> ");
+		String stuffName = scan.next();
+		int number = scan.nextInt();
+		
+		BuyStuff(stuffs, stuffName, number);
+	}
+}

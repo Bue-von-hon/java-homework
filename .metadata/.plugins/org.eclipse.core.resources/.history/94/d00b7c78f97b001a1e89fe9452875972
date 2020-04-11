@@ -1,0 +1,18 @@
+package homeWork;
+
+public class Seller extends Person {
+	private String sellerName;
+	private Book[] sellerBooks;
+	
+	Seller(String sellerName, Book[] sellerBooks)
+	{
+		super(sellerName);
+		this.sellerBooks = sellerBooks;
+	}
+	
+	
+	public Book[] GetSellerBooks()
+	{
+		return sellerBooks;
+	}
+}

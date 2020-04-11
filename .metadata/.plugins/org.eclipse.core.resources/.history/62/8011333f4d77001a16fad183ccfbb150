@@ -1,0 +1,10 @@
+
+public class Stuff {
+	String iName;
+	int qun;
+	
+	public Stuff(String iName, int qun)
+	{
+		
+	}
+}
