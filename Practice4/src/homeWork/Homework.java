@@ -1,3 +1,4 @@
+/*
 package homeWork;
 
 import java.util.Scanner;
@@ -77,3 +78,4 @@ public class Homework {
 		System.out.println(String.format("%s: Do Come Back~", seller.GetPersonName()));
 	}
 }
+*/

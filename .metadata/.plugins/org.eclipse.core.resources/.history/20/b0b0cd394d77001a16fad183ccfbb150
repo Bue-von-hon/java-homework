@@ -1,9 +1,0 @@
-
-public class Stuff {
-	String iName;
-	
-	public Stuff(String iName, int qun)
-	{
-		
-	}
-}

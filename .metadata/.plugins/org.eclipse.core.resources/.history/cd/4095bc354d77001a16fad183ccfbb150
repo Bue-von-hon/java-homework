@@ -1,7 +1,0 @@
-
-public class Stuff {
-	public Stuff(String iName, int qun)
-	{
-		
-	}
-}

@@ -1,9 +1,0 @@
-package homeWork;
-
-public class Homework {
-	public static void main(String args[])
-	{
-		Book javaBook = new Book("ÀÚ¹Ù", 20000);
-		Book jspBook = new Book("")
-	}
-}
