@@ -1,3 +1,4 @@
+/*
 package homework;
 
 import java.io.File;
@@ -100,3 +101,4 @@ public class Homework {
 		System.out.printf("%s: 싱거운녀석 벌써 가위바위보를 끝내다니...", man.GetHumanName());
 	}
 }
+*/

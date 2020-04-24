@@ -1,9 +1,0 @@
-package homeWork;
-
-public class Buyer extends Person
-{
-	public Buyer(String buyerName, int buyerMoney)
-	{
-		super(buyerName, buyerMoney);
-	}
-}

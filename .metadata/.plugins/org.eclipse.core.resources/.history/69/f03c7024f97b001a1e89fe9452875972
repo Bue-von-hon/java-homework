@@ -1,7 +1,0 @@
-package homeWork;
-
-public abstract class Person {
-	public String owner;
-	
-	
-}
