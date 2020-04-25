@@ -174,7 +174,7 @@ public class Homework {
 		System.out.println(String.format("%s %15s %45s", "속도", "차종", "차주"));
 		for(int index = 0; index < sizeOfSportsCars; index++)
 		{
-			System.out.println(String.format("%d %15s %25s", sportsCars[index].GetCarSpeed(), sportsCars[index].GetCarKind(), sportsCars[index].GetCarOwnerName()));
+			sportsCars[index].Print();
 		}
 	}
 	

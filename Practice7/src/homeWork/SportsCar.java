@@ -17,6 +17,6 @@ public class SportsCar extends Car
 	
 	public void Print()
 	{
-		System.out.println(String.format("%d%s%s", GetCarSpeed(), GetCarKind(), GetCarOwnerName()));
+		System.out.println(String.format("%d%15s%45s", GetCarSpeed(), GetCarKind(), GetCarOwnerName()));
 	}
 }
