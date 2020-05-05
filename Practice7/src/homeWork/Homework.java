@@ -1,3 +1,4 @@
+/*
 package homeWork;
 
 import java.io.IOException;
@@ -221,3 +222,4 @@ public class Homework {
 		
 	}
 }
+*/
