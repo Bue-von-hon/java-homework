@@ -6,6 +6,9 @@ public class HomeWork {
 	public static void main(String[] args)
 	{
 		AddInterface ai;
+		
+		System.out.println("* 람다식 활용 *");
+		
 		ai = () -> {
 			int number1 = 0;
 			int number2 = 0;
